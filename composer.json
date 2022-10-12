@@ -1,0 +1,10 @@
+{
+    "name": "phpakademik/bot",
+    "description": "phpakademik/bot",
+    "autoload": {
+        "psr-4": {
+            "Telegram\\":"src/"
+        }
+    },
+    "require": {}
+}
