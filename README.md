@@ -76,4 +76,4 @@ else if($text == '/document')
     $api->sendDocument($chat_id,'DOCUMENT_url','');
 }
 ```
-#  tez kunda
+# qolgani tez kunda
