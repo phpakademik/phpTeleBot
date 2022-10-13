@@ -1,5 +1,7 @@
 {
     "name": "phpakademik/bot",
+    "license": "MIT",
+    "keywords": ["Telegram Bot","Telegram Bot framework","BotApp","PHP telegram bot"],
     "description": "phpakademik/bot",
     "autoload": {
         "psr-4": {
