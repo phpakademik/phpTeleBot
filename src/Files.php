@@ -1,6 +1,6 @@
 <?php
 
-namespace Telegram;
+namespace App;
 
 
 class Files

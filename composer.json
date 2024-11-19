@@ -5,8 +5,10 @@
     "description": "phpakademik/bot",
     "autoload": {
         "psr-4": {
-            "Telegram\\":"src/"
+            "App\\":"src/"
         }
     },
-    "require": {}
+    "require": {
+        "oscarotero/env": "^2.1"
+    }
 }

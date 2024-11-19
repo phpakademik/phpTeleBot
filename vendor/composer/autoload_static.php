@@ -4,17 +4,29 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitff84a366b00ee87c79bf31a6d1337bdf
+class ComposerStaticInit7be4dd5e745e30841586cc465c704462
 {
+    public static $files = array (
+        'd24932181e8483081b47b64b5b06065a' => __DIR__ . '/..' . '/oscarotero/env/src/env_function.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
-        'T' => 
+        'E' => 
         array (
-            'Telegram\\' => 9,
+            'Env\\' => 4,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Telegram\\' => 
+        'Env\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/oscarotero/env/src',
+        ),
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +39,9 @@ class ComposerStaticInitff84a366b00ee87c79bf31a6d1337bdf
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitff84a366b00ee87c79bf31a6d1337bdf::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitff84a366b00ee87c79bf31a6d1337bdf::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitff84a366b00ee87c79bf31a6d1337bdf::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7be4dd5e745e30841586cc465c704462::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7be4dd5e745e30841586cc465c704462::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7be4dd5e745e30841586cc465c704462::$classMap;
 
         }, null, ClassLoader::class);
     }

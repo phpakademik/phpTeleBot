@@ -1,5 +1,5 @@
 <?php 
-namespace Telegram;
+namespace App;
 
 use Telegram\Keyboard;
 use Telegram\Files;
